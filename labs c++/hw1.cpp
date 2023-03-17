@@ -1,5 +1,4 @@
-// Author: Nadia Islam
-// CUNYID#: 24226645
+
 #include <iostream>
 using namespace std;
 int main(){
