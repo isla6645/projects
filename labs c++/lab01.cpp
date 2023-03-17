@@ -1,5 +1,5 @@
 // Author: Nadia Islam
-// CUNY ID#: 24226645
+// simple output to console
 
 #include <iostream>
 using namespace std;
