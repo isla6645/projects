@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+button {
+  
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+ font-size: 25px;
+ 
+}
+
+html {
+  background-image: url("https://www.kindpng.com/picc/m/94-949780_barbell-image-with-emphasis-on-no-pain-no.png");
+}

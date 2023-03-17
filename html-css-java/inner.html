@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workout Log</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <!-- START NAV -->
+    <nav class="navbar is-white">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item brand-text" href="index.html">
+          Back to workout page
+        </a>
+                <div class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="navMenu" class="navbar-menu">
+
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3 ">
+                <aside class="menu is-hidden-mobile">
+                    <p class="menu-label">
+                        Days
+                    </p>
+                    <ul class="menu-list">
+                        <li><button id="day-Saturday" class="button is-link">Saturday</button></li>
+                      <br>
+                        <li><button id="day-Sunday" class="button is-link">Sunday</button></li>
+                      <br>
+                        <li><button id="day-Monday" class="button is-link">Monday</button></li>
+                      <br>
+                        <li><button id="day-Tuesday" class="button is-link">Tuesday</button></li>
+                      <br>
+                        <li><button id="day-Wednesday" class="button is-link">Wednesday</button></li>
+                      <br>
+                        <li><button id="day-Thursday" class="button is-link">Thursday</button></li>
+                      <br>
+                        <li><button id="day-Friday" class="button is-link">Friday</button></li>
+                      <br>
+                    </ul>
+                </aside>
+            </div>
+          
+            <div class="column is-9">
+                <nav class="breadcrumb" aria-label="breadcrumbs">
+                    
+                </nav>
+                <section class="hero is-info welcome is-small">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 id = "title" class="title">
+                                Welcome, Username!
+                            </h1>
+                            <h2 class="subtitle">
+                                You can use this page to log your workouts!
+                            </h2>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="columns">
+                    <div class="column is-6">
+                        <div class="card events-card">
+                            <header class="card-header">
+                                <p class="card-header-title">
+                                    Log it!
+                                </p>
+                
+                            </header>
+                            <div class="card-table">
+                                <div class="content">
+                                      <div class="control has-icons-left has-icons-right">
+                                        <input id="workoutInput" class="input is-large" type="text" placeholder="Type your workout here!">
+                                          <span class="icon is-medium is-right">
+                                          <i class="fa fa-check"></i>
+                                          </span>
+                                      </div>
+
+                                      <ul id="workoutOutput">
+                                        
+                                      </ul>
+                                </div>
+                            </div>
+
+                            <!-- In case the dropdown doesn't work -->  
+                            <div class="card-table">
+                                <div class="content">
+                                      <div class="control has-icons-left has-icons-right">
+                                        <input id="dayInput" class="input is-large" type="text" placeholder="What day of the week?">
+                                      </div>
+                                </div>
+                            </div>
+                          
+                            <footer class="card-footer">
+                                <a id="newWorkout" class="card-footer-item">Save log</a>
+                            </footer>
+                        </div>
+                    </div>
+    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="inner.js"></script>
+</body>
+
+</html>
+

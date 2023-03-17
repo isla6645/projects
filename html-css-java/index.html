@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Workout Guide</title>
+        <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+        <!-- Bulma Version 0.9.0-->
+        <link rel='stylesheet prefetch' href='https://unpkg.com/bulma@0.9.0/css/bulma.min.css'>
+        <link rel="stylesheet" href="bulma.css">
+        <link rel="stylesheet" href="cards.css">
+        <link rel="stylesheet" href="formatting.css">
+        <script src="https://kit.fontawesome.com/7dc3015a44.js" crossorigin="anonymous"></script>
+    </head>
+  
+    <body>
+<!-- NAV START -->      
+      <nav class="navbar is-primary">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+            <img src="https://images.emojiterra.com/google/noto-emoji/v2.034/share/1f4aa.jpg" alt="Bulma: a modern CSS framework based on Flexbox" width="50" height="28">
+          </a>
+          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </div>
+        
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start is-info">
+            <a class="navbar-item" href="login.html">
+            Log Your Workouts
+            </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link" href="/documentation/overview/start/">
+            Helpful Channels
+            </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="https://www.youtube.com/c/ACHVPEAK">
+            ACHV Peak
+            </a>
+            <a class="navbar-item" href="https://www.youtube.com/c/JeffNippard">
+            Jeff Nippard
+            </a>
+            <a class="navbar-item" href="https://www.youtube.com/c/WORKOUTBody/videos">
+            WORKOUT
+            </a>
+            <a class="navbar-item" href="https://www.youtube.com/watch?v=MpG7Q_H8m8g&t=66s">
+            Jeremy Ethier
+            </a>
+            <a class="navbar-item" href="https://www.youtube.com/c/MadFit">
+            MadFit
+            </a>
+            <a class="navbar-item" href="https://www.youtube.com/channel/UCTejDPGpQQLQmO0MOALtKk">
+            Nike Training Club
+            </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+<!-- NAV END -->
+
+<!-- HEADER START -->
+        <section class="hero is-info">
+            <div class="hero-body">
+                <div class="container">
+                    <h1 class="title">
+                    Workout Beginner Guide
+                    </h1>
+                    <h2 class="subtitle">
+                    Are you starting to workout but don't know what exercises you should do? You can use this website to find exercises you can do and even youtube channels that can help you!
+                    </h2>
+                </div>
+            </div>
+          
+              <div class="tabs is-boxed is-centered main-menu" id="nav">
+                <ul>
+                    <li data-target="pane-1" id="1">
+                        <a>
+                            <span>Cardio</span>
+                        </a>
+                    </li>
+                    <li data-target="pane-2" id="2" class="is-active">
+                        <a>
+                            <span>Upper Body</span>
+                        </a>
+                    </li>
+                    <li data-target="pane-3" id="3">
+                        <a>
+                            <span>Core</span>
+                        </a>
+                    </li>
+                    <li data-target="pane-4" id="4">
+                        <a>
+                            <span>Lower Body</span>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+<!-- HEADER END -->
+
+<!-- CONTENT FOR EACH PANEL -->          
+            <div class="tab-content is-hidden has-background-light">
+                <div class="tab-pane columns is-multiline" id="pane-1">
+                  <!-- Cards will be inserted here using JS -->
+            		</div>
+                
+                <div class="tab-pane columns is-multiline" id="pane-3">
+                  <!-- Cards will be inserted here using JS --> 
+                </div>
+              
+                <div class="tab-pane columns is-multiline" id="pane-4">
+                  <!-- Cards will be inserted here using JS --> 
+                </div>
+              
+                <div class="tab-pane columns is-multiline" id="pane-2">
+                  <!-- Cards will be inserted here using JS --> 
+                </div>
+            </div>
+<!-- CONTENT FOR EACH PANEL -->  
+    </section>
+
+<!-- FOOTER START -->
+  <footer class="footer">
+    <div class="container">
+  		<div class="content has-text-centered">
+  			<p>
+  				<strong>Still on the fence about exercising?</strong> Then check out <a href="https://www.cdc.gov/physicalactivity/basics/pa-health/index.htm#:~:text=Being%20physically%20active%20can%20improve,activity%20gain%20some%20health%20benefits.">this article</a> to possibly change your mind! 
+  			</p>
+  		</div>
+	  </div>
+  </footer>
+<!-- FOOTER END -->
+      
+    <script src="workoutData.js"></script>  
+    <script src="bulma.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
