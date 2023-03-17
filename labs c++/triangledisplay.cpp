@@ -1,5 +1,9 @@
 // Author: Nadia Islam
-// CUNYID#: 24226645
+// This program takes in an 8 digit id number from the user.
+// Prints a triangular display which has the first 5 digits of the ID# on its top row. 
+// Each later row is obtained by omitting the last digit from the number on the previous row.
+
+
 #include <iostream>
 using namespace std;
 int main(){
