@@ -1,3 +1,5 @@
+// Author: Nadia Islam
+// This project creates a simple calculator for users to divide, multiply, add, and subtract 2 integers. 
 #include <iostream>
 using namespace std;
 int main(){
