@@ -1,5 +1,5 @@
 // Author: Nadia Islam
-// CUNYID#: 24226645
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
