@@ -14,9 +14,9 @@ public class lab1 {
       int rowSum=0;
       int diagSum=0;
       
-      for (int i=0; i<myArray.length;i++) {
-         rowSum += myArray[row][i]; // adding all the values in the columns
-         diagSum += myArray[i][i]; //adding the diagonal numbers by incrementing i
+      for (int i=0; i<myArray.length; i++) {
+         rowSum += myArray[row][i]; 
+         diagSum += myArray[i][i]; 
       }
       
       return rowSum == diagSum; 
