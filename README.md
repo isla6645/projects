@@ -9,6 +9,7 @@ In High School I was introduced with Java in AP Computer Science. Currently as a
 *   🌍  I'm based in New York
 *   ✉️  You can contact me at [islnadia120@gmail.com](mailto:islnadia120@gmail.com )
 *   🧠  I'm learning Java and C++
+*   My leetcode page: https://leetcode.com/u/islamnadia/
 
 ### Skills 
 <p align="left">
