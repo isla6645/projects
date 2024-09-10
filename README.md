@@ -4,8 +4,6 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Undergraduate Computer Science
 ------------------------------
 
-In High School I was introduced with Java in AP Computer Science. Currently as a freshman in college, for my first semester I took Intro to Algorithmic problem solving which was an introductory class for C++. Now in my second semester I am taking Object Oriented C++ and Java.
-
 *   🌍  I'm based in New York
 *   ✉️  You can contact me at [islnadia120@gmail.com](mailto:islnadia120@gmail.com )
 *   🧠  I'm learning Java and C++
